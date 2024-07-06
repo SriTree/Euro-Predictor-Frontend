@@ -145,7 +145,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Left Round of 16 */}
           {data.matches.slice(0, 4).map((match, index) => (
             <div key={index} className="flex flex-col items-start">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-4">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-4">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -153,12 +153,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -166,9 +166,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Quarterfinals - Left */}
           {data.matches.slice(8, 10).map((match, index) => (
             <div key={index} className="flex flex-col items-start mb-48">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-36 mt-16">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-36 mt-16">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -187,12 +187,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 -mb-36">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 -mb-36">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -200,9 +200,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -213,7 +213,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Semifinals - Left */}
           {data.matches.slice(12, 13).map((match, index) => (
             <div key={index} className="flex flex-col items-end mb-36">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-96 mt-48">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-96 mt-48">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -221,12 +221,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -234,9 +234,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -247,7 +247,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Finals - Left */}
           {data.matches.slice(14).map((match, index) => (
             <div key={index} className="flex flex-col items-end mb-36 mt-96">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mt-12">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mt-12">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -255,9 +255,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -268,7 +268,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Finals - Right */}
           {data.matches.slice(14).map((match, index) => (
             <div key={index} className="flex flex-col items-end mb-36 mt-96">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mt-12">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mt-12">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -276,9 +276,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -289,7 +289,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Semifinals - Right */}
           {data.matches.slice(13, 14).map((match, index) => (
             <div key={index} className="flex flex-col items-end mb-36">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-96 mt-48">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-96 mt-48">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -297,12 +297,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -310,9 +310,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -323,7 +323,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Quarterfinals - Right */}
           {data.matches.slice(10, 12).map((match, index) => (
             <div key={index} className="flex flex-col items-end mb-48">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-36 mt-16">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-36 mt-16">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -331,12 +331,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 -mb-36">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 -mb-36">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -344,9 +344,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
@@ -357,7 +357,7 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
           {/* Right Round of 16 */}
           {data.matches.slice(4, 8).map((match, index) => (
             <div key={index} className="flex flex-col items-end">
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24 mb-4">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24 mb-4">
                 <span>{getParticipantById(match.opponent1_id)?.name}</span>
                 <Image
                   src={
@@ -365,12 +365,12 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
-              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-48 h-24">
+              <div className="bg-white text-black p-1 rounded-md flex items-center justify-between w-36 h-24">
                 <span>{getParticipantById(match.opponent2_id)?.name}</span>
                 <Image
                   src={
@@ -378,9 +378,9 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={80}
-                  height={80}
-                  className="rounded-full mr-2"
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-.5"
                 />
               </div>
             </div>
