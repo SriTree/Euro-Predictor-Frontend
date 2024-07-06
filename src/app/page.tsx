@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Import flag images
+// test
 import albaniaFlag from "../app/assets/albania.png";
 import austriaFlag from "../app/assets/austria.png";
 import belgiumFlag from "../app/assets/belgium.png";
@@ -153,8 +154,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -166,8 +167,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -187,8 +188,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -200,8 +201,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -221,8 +222,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -234,8 +235,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -255,8 +256,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -276,8 +277,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -297,8 +298,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -310,8 +311,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -331,8 +332,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -344,8 +345,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -365,8 +366,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
@@ -378,8 +379,8 @@ const Bracket: React.FC<{ data: TournamentData }> = ({ data }) => {
                       .src
                   }
                   alt="flag"
-                  width={60}
-                  height={60}
+                  width={45}
+                  height={45}
                   className="rounded-full mr-.5"
                 />
               </div>
