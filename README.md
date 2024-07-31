@@ -10,6 +10,9 @@ This repository contains the next app that pairs with the backend components on 
 ## Demo
 https://euro-predictor-nine.vercel.app/
 
+The Demo takes a while to load, as it take a while to fetch the data from the hosted backend. Please wait 10-15 seconds to see the web app load. Additionally you can toggle the button on the bottom to try multiple runs 
+of the simulation.
+
 ## Getting Started
 
 First, run the development server:
