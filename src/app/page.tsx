@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Import flag images
-// test
 import albaniaFlag from "../app/assets/albania.png";
 import austriaFlag from "../app/assets/austria.png";
 import belgiumFlag from "../app/assets/belgium.png";
@@ -77,7 +76,7 @@ interface TournamentData {
 }
 
 const fetchResults = async (): Promise<TournamentData> => {
-  const response = await fetch("https://euro-predictor.onrender.com/simulate", {
+  const response = await fetch(process.env.NEXT_PUBLIC_SIMULATE_URL as string, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -87,7 +86,7 @@ const fetchResults = async (): Promise<TournamentData> => {
 };
 
 const retrainModel = async (): Promise<void> => {
-  const response = await fetch("https://euro-predictor.onrender.com/retrain", {
+  const response = await fetch(process.env.NEXT_PUBLIC_RETRAIN_URL as string, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
