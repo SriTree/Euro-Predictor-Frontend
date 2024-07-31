@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# UEFA 2024 Predictor (Frontend)
+
+[!screenshot](screenshot.png)
+
+Hi! My name is Sri and this is my project to predict the UEFA 2024 Euros. As someone who tries to catch ever soccer match, this project seemed like the perfect combination of sports analystics and machine learning.
+
+This repository contains the next app that pairs with the backend components on the other [repo](https://github.com/SriTree/UEFA_2024_Predictor_Backend).
+
+## Demo
+https://euro-predictor-nine.vercel.app/
 
 ## Getting Started
 
@@ -20,17 +30,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Acknowledgements
 
-To learn more about Next.js, take a look at the following resources:
+ - [How to predict NFL Winners with Python](https://www.activestate.com/blog/how-to-predict-nfl-winners-with-python/)
+ - [Predict Football Match Winners With Machine Learning And Python](How to predict NFL Winners with Python)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Server:** NextJS, Flask, TailwindCSS
