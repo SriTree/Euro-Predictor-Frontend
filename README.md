@@ -1,7 +1,7 @@
 
 # UEFA 2024 Predictor (Frontend)
 
-[!screenshot](screenshot.png)
+![screenshot](screenshot.png)
 
 Hi! My name is Sri and this is my project to predict the UEFA 2024 Euros. As someone who tries to catch ever soccer match, this project seemed like the perfect combination of sports analystics and machine learning.
 
